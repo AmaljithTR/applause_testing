@@ -1,0 +1,23 @@
+{
+  "name": "applause_testing",
+  "version": "1.0.0",
+  "description": "Testing and reporting Applause using puppeteer and allure",
+  "main": "app.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaljithTR/applause_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmaljithTR/applause_testing/issues"
+  },
+  "homepage": "https://github.com/AmaljithTR/applause_testing#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "puppeteer": "^10.2.0"
+  }
+}
