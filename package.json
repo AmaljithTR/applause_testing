@@ -4,7 +4,7 @@
   "description": "Testing and reporting Applause using puppeteer and allure",
   "main": "app.js",
   "scripts": {
-    "test": "node_modules/@cucumber/cucumber/bin/cucumber-js --format json:./reports/report.json"
+    "test": "cucumber-js --format json:./reports/report.json"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/AmaljithTR/applause_testing#readme",
   "devDependencies": {
-    "@cucumber/cucumber": "^7.3.1",
     "allure-cucumberjs": "^2.0.0-beta.11",
     "cucumber-html-reporter": "^5.4.0",
     "puppeteer": "^10.2.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "dotenv": "^10.0.0"
   }
 }

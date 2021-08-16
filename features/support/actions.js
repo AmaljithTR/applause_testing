@@ -1,6 +1,6 @@
-const puppeteer = require('puppeteer');
 const assert = require('assert');
 const scope = require('./scope');
+require('dotenv').config();
 
 module.exports.clickOnNavItem = async (element) => {
     const pageTarget = scope.context.currentPage.target();
@@ -65,6 +65,7 @@ module.exports.enterText = async (text, element) => {
 
 module.exports.pressKey = async (key) => {
     await scope.context.newPage.keyboard.press(key)
+    return "Action successfull"
 }
 
 module.exports.visitWebSite = async () => {
@@ -73,6 +74,6 @@ module.exports.visitWebSite = async () => {
         defaultViewport: null
     });
     scope.context.currentPage = await scope.browser.newPage();
-    const url = 'https://grayjay.applause.stream/home';
+    const url = scope.host;
     await scope.context.currentPage.goto(url, { waitUntil: 'networkidle2', timeout: 0 });
 }

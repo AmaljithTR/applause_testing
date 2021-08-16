@@ -1,9 +1,10 @@
 const { setWorldConstructor } = require('@cucumber/cucumber');
 const puppeteer = require('puppeteer');
 const scope = require('./support/scope');
+require('dotenv').config();
 
 const World = function () {
-    scope.host = 'https://grayjay.applause.stream/home';
+    scope.host = process.env.homeUrl;
     scope.driver = puppeteer;
     scope.context = {};
 };
