@@ -70,7 +70,7 @@ module.exports.pressKey = async (key) => {
 
 module.exports.visitWebSite = async () => {
     scope.browser = await scope.driver.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null
     });
     scope.context.currentPage = await scope.browser.newPage();
