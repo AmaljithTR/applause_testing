@@ -12,3 +12,6 @@ Testing and reporting Applause using puppeteer and allure
 - node report.js
 - cd reports/
 - run liveserver for report.html
+
+### Parallel process
+- Add required instances as environment variable "countInstances"
