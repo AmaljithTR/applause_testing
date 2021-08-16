@@ -1,0 +1,455 @@
+[
+  {
+    "description": "    FAQ conatins list of questions and answers relating to Applause, with feedback form.",
+    "elements": [
+      {
+        "description": "",
+        "id": "faq-feedback-submit;submitting-feedback-form-for-a-question-in-help-for-fans",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Submitting feedback form for a question in help for fans",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Goto Help",
+            "match": {
+              "location": "features/step_defenitions/common.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Click FAQ",
+            "match": {
+              "location": "features/step_defenitions/common.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Select a Question",
+            "match": {
+              "location": "features/step_defenitions/common.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Submitted yes for the feedback form",
+            "match": {
+              "location": "features/step_defenitions/common.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should recieve \"Action successfull\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1481000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "faq-feedback-submit",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "FAQ Feedback Submit",
+    "tags": [],
+    "uri": "features/feedbackSubmit.feature"
+  },
+  {
+    "description": "    Login to applause is handled with zoom.",
+    "elements": [
+      {
+        "description": "",
+        "id": "applause-login;applause-signin-redirects-to-zoom",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Applause signin redirects to zoom",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I Click SignIn",
+            "match": {
+              "location": "features/step_defenitions/common.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be redirected to \"https://zoom.us/oauth2/login\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 926000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "applause-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Applause login",
+    "tags": [],
+    "uri": "features/loginRedirect.feature"
+  },
+  {
+    "description": "    Search keywords related to applause in help",
+    "elements": [
+      {
+        "description": "",
+        "id": "search;search-for-\"faq\"-in-help",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Search for \"faq\" in help",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Goto Help",
+            "match": {
+              "location": "features/step_defenitions/common.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter text \"faq\" to search",
+            "match": {
+              "location": "features/step_defenitions/common.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Press \"Enter\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should recieve \"Action successfull\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search;search-for-\"faq\"-in-help-and-select-first-suggestion",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search for \"faq\" in help and select first suggestion",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Goto Help",
+            "match": {
+              "location": "features/step_defenitions/common.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter text \"faq\" to search",
+            "match": {
+              "location": "features/step_defenitions/common.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Select first suggestion",
+            "match": {
+              "location": "features/step_defenitions/common.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should recieve \"Action successfull\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1925000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search;search-for-\"fdffgdg;dlvflgl,g\"-in-help",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Search for \"fdffgdg;dlvflgl,g\" in help",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "Goto Help",
+            "match": {
+              "location": "features/step_defenitions/common.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I enter text \"fdffgdg;dlvflgl,g\" to search",
+            "match": {
+              "location": "features/step_defenitions/common.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Press \"Enter\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I recieve no result",
+            "match": {
+              "location": "features/step_defenitions/common.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should recieve \"Action successfull\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 834000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search",
+    "tags": [],
+    "uri": "features/search.feature"
+  }
+]
