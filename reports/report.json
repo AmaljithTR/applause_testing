@@ -1,5 +1,143 @@
 [
   {
+    "description": "    Contains information about applause",
+    "elements": [
+      {
+        "description": "",
+        "id": "aboutus;view-aboutus",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "View AboutUS",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Goto About us",
+            "match": {
+              "location": "features/step_defenitions/common.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see \"https://grayjay.applause.stream/about\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "aboutus",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "AboutUS",
+    "tags": [],
+    "uri": "features/aboutUs.feature"
+  },
+  {
+    "description": "    Create two-way performances, listening sessions, meet & greets and more as events in applause",
+    "elements": [
+      {
+        "description": "",
+        "id": "applause-events;create-event-redirects-to-zoom",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Create event redirects to zoom",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open website",
+            "match": {
+              "location": "features/step_defenitions/common.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I Click create event",
+            "match": {
+              "location": "features/step_defenitions/common.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be redirected to \"https://zoom.us/oauth2/login\"",
+            "match": {
+              "location": "features/step_defenitions/common.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1882000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "applause-events",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Applause events",
+    "tags": [],
+    "uri": "features/event.feature"
+  },
+  {
     "description": "    FAQ conatins list of questions and answers relating to Applause, with feedback form.",
     "elements": [
       {
@@ -19,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14221000000
+              "duration": 12296000000
             }
           },
           {
@@ -32,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 658000000
+              "duration": 3868000000
             }
           },
           {
@@ -41,11 +179,11 @@
             "line": 8,
             "name": "Click FAQ",
             "match": {
-              "location": "features/step_defenitions/common.js:14"
+              "location": "features/step_defenitions/common.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3699000000
+              "duration": 3667000000
             }
           },
           {
@@ -54,11 +192,11 @@
             "line": 9,
             "name": "Select a Question",
             "match": {
-              "location": "features/step_defenitions/common.js:18"
+              "location": "features/step_defenitions/common.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1349000000
+              "duration": 914000000
             }
           },
           {
@@ -67,11 +205,11 @@
             "line": 10,
             "name": "I Submitted yes for the feedback form",
             "match": {
-              "location": "features/step_defenitions/common.js:22"
+              "location": "features/step_defenitions/common.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1960000000
+              "duration": 3826000000
             }
           },
           {
@@ -80,11 +218,11 @@
             "line": 11,
             "name": "I should recieve \"Action successfull\"",
             "match": {
-              "location": "features/step_defenitions/common.js:46"
+              "location": "features/step_defenitions/common.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -92,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1481000000
+              "duration": 1096000000
             }
           }
         ],
@@ -127,7 +265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14993000000
+              "duration": 13287000000
             }
           },
           {
@@ -136,11 +274,11 @@
             "line": 7,
             "name": "I Click SignIn",
             "match": {
-              "location": "features/step_defenitions/common.js:38"
+              "location": "features/step_defenitions/common.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 1802000000
+              "duration": 1998000000
             }
           },
           {
@@ -149,11 +287,11 @@
             "line": 8,
             "name": "I should be redirected to \"https://zoom.us/oauth2/login\"",
             "match": {
-              "location": "features/step_defenitions/common.js:51"
+              "location": "features/step_defenitions/common.js:59"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -161,7 +299,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 926000000
+              "duration": 453000000
             }
           }
         ],
@@ -196,7 +334,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14631000000
+              "duration": 12100000000
             }
           },
           {
@@ -209,7 +347,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 507000000
+              "duration": 602000000
             }
           },
           {
@@ -218,11 +356,11 @@
             "line": 8,
             "name": "I enter text \"faq\" to search",
             "match": {
-              "location": "features/step_defenitions/common.js:26"
+              "location": "features/step_defenitions/common.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1216000000
+              "duration": 714000000
             }
           },
           {
@@ -231,11 +369,11 @@
             "line": 9,
             "name": "Press \"Enter\"",
             "match": {
-              "location": "features/step_defenitions/common.js:34"
+              "location": "features/step_defenitions/common.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 19000000
             }
           },
           {
@@ -244,11 +382,11 @@
             "line": 10,
             "name": "I should recieve \"Action successfull\"",
             "match": {
-              "location": "features/step_defenitions/common.js:46"
+              "location": "features/step_defenitions/common.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -256,7 +394,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 554000000
+              "duration": 593000000
             }
           }
         ],
@@ -280,7 +418,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16404000000
+              "duration": 11792000000
             }
           },
           {
@@ -293,7 +431,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 502000000
+              "duration": 490000000
             }
           },
           {
@@ -302,11 +440,11 @@
             "line": 15,
             "name": "I enter text \"faq\" to search",
             "match": {
-              "location": "features/step_defenitions/common.js:26"
+              "location": "features/step_defenitions/common.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 693000000
+              "duration": 529000000
             }
           },
           {
@@ -315,11 +453,11 @@
             "line": 16,
             "name": "Select first suggestion",
             "match": {
-              "location": "features/step_defenitions/common.js:30"
+              "location": "features/step_defenitions/common.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 1942000000
+              "duration": 4257000000
             }
           },
           {
@@ -328,11 +466,11 @@
             "line": 17,
             "name": "I should recieve \"Action successfull\"",
             "match": {
-              "location": "features/step_defenitions/common.js:46"
+              "location": "features/step_defenitions/common.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -340,7 +478,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1925000000
+              "duration": 1303000000
             }
           }
         ],
@@ -364,7 +502,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13021000000
+              "duration": 11911000000
             }
           },
           {
@@ -377,7 +515,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 667000000
+              "duration": 425000000
             }
           },
           {
@@ -386,11 +524,11 @@
             "line": 22,
             "name": "I enter text \"fdffgdg;dlvflgl,g\" to search",
             "match": {
-              "location": "features/step_defenitions/common.js:26"
+              "location": "features/step_defenitions/common.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 792000000
+              "duration": 574000000
             }
           },
           {
@@ -399,11 +537,11 @@
             "line": 23,
             "name": "Press \"Enter\"",
             "match": {
-              "location": "features/step_defenitions/common.js:34"
+              "location": "features/step_defenitions/common.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 25000000
             }
           },
           {
@@ -412,11 +550,11 @@
             "line": 24,
             "name": "I recieve no result",
             "match": {
-              "location": "features/step_defenitions/common.js:42"
+              "location": "features/step_defenitions/common.js:50"
             },
             "result": {
               "status": "passed",
-              "duration": 1129000000
+              "duration": 2428000000
             }
           },
           {
@@ -425,11 +563,11 @@
             "line": 25,
             "name": "I should recieve \"Action successfull\"",
             "match": {
-              "location": "features/step_defenitions/common.js:46"
+              "location": "features/step_defenitions/common.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -437,7 +575,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 834000000
+              "duration": 1243000000
             }
           }
         ],
