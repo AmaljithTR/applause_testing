@@ -1,4 +1,4 @@
-# applause_testing
+# Applause TestSuite
 Testing and reporting Applause using puppeteer and allure
 
 ### Setup
