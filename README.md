@@ -1,8 +1,8 @@
-# applause_testing
+# Applause TestSuite
 Testing and reporting Applause using puppeteer and allure
 
 ### Setup
-- git clone https://github.com/AmaljithTR/applause_testing.git
+- Clone Current repository
 - npm install
 
 ### To test
