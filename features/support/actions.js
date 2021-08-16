@@ -26,6 +26,15 @@ module.exports.clickOnDocument = async (element) => {
     } catch (error) { return "error" }
 }
 
+module.exports.clickOnCurrentDocument = async (element) => {
+    // try {
+    // await scope.context.currentPage.waitForSelector(element);
+    await scope.context.currentPage.$(element);
+    await scope.context.currentPage.evaluate(selector => document.querySelector(selector).click(), element);
+    // return "Action successfull"
+    // } catch (error) { return "error" }
+}
+
 module.exports.checkResponse = async (actualResponse, expectedResponse) => {
     await assert.equal(actualResponse, expectedResponse)
 }
@@ -36,10 +45,16 @@ module.exports.checkResult = async (expectedResponse) => {
     }
 }
 
+module.exports.checkCurrentUrl = async (expectedResponse) => {
+    let url = await scope.context.currentPage.url();
+    let actualResponse = url.split("?");
+    assert.equal(actualResponse[0], expectedResponse)
+}
+
 module.exports.checkUrl = async (expectedResponse) => {
-    let url = scope.context.newPage.url();
-    const actualResponse = url.split("?");
-    await assert.equal(actualResponse[0], expectedResponse)
+    let url = await scope.context.newPage.url();
+    let actualResponse = url.split("?");
+    assert.equal(actualResponse[0], expectedResponse)
 }
 
 module.exports.enterText = async (text, element) => {

@@ -11,6 +11,10 @@ When('Goto Help', async () => {
     await actions.clickOnNavItem(selectors.help)
 });
 
+When('Goto About us', async () => {
+    await actions.clickOnCurrentDocument(selectors.aboutus)
+});
+
 When('Click FAQ', async () => {
     await actions.clickOnItem(selectors.forFans)
 });
@@ -39,6 +43,10 @@ When('I Click SignIn', async () => {
     await actions.clickOnNavItem(selectors.signIn)
 });
 
+When('I Click create event', async () => {
+    await actions.clickOnNavItem(selectors.createEvent)
+});
+
 Then('I recieve no result', async () => {
     this.actualResponse = await actions.checkResult(selectors.noResult)
 });
@@ -47,7 +55,10 @@ Then('I should recieve {string}', async (expectedResponse) => {
     await actions.checkResponse(this.actualResponse, expectedResponse)
 });
 
-
 Then('I should be redirected to {string}', async (expectedResponse) => {
     await actions.checkUrl(expectedResponse)
+});
+
+Then('I should see {string}', async (expectedResponse) => {
+    await actions.checkCurrentUrl(expectedResponse)
 });
