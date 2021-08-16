@@ -36,7 +36,7 @@ When('Select first suggestion', async () => {
 });
 
 When('Press {string}', async (key) => {
-    await actions.pressKey(key)
+    this.actualResponse = await actions.pressKey(key)
 });
 
 When('I Click SignIn', async () => {

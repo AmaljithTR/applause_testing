@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11956000000
+              "duration": 14945000000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 136000000
             }
           },
           {
@@ -41,7 +41,7 @@
             "line": 8,
             "name": "I should see \"https://grayjay.applause.stream/about\"",
             "match": {
-              "location": "features/step_defenitions/common.js:63"
+              "location": "features/step_defenitions/common.js:62"
             },
             "result": {
               "status": "passed",
@@ -53,7 +53,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 678000000
+              "duration": 677000000
             }
           }
         ],
@@ -88,7 +88,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13157000000
+              "duration": 14883000000
             }
           },
           {
@@ -101,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1832000000
+              "duration": 1714000000
             }
           },
           {
@@ -110,11 +110,11 @@
             "line": 8,
             "name": "I should be redirected to \"https://zoom.us/oauth2/login\"",
             "match": {
-              "location": "features/step_defenitions/common.js:59"
+              "location": "features/step_defenitions/common.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1882000000
+              "duration": 1035000000
             }
           }
         ],
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12296000000
+              "duration": 13368000000
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3868000000
+              "duration": 3115000000
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3667000000
+              "duration": 3741000000
             }
           },
           {
@@ -196,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 914000000
+              "duration": 820000000
             }
           },
           {
@@ -209,7 +209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3826000000
+              "duration": 2136000000
             }
           },
           {
@@ -222,7 +222,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           },
           {
@@ -230,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1096000000
+              "duration": 1481000000
             }
           }
         ],
@@ -265,7 +265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13287000000
+              "duration": 15859000000
             }
           },
           {
@@ -278,7 +278,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1998000000
+              "duration": 1746000000
             }
           },
           {
@@ -287,7 +287,7 @@
             "line": 8,
             "name": "I should be redirected to \"https://zoom.us/oauth2/login\"",
             "match": {
-              "location": "features/step_defenitions/common.js:59"
+              "location": "features/step_defenitions/common.js:58"
             },
             "result": {
               "status": "passed",
@@ -299,7 +299,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 453000000
+              "duration": 1318000000
             }
           }
         ],
@@ -334,7 +334,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12100000000
+              "duration": 17447000000
             }
           },
           {
@@ -347,7 +347,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 602000000
+              "duration": 706000000
             }
           },
           {
@@ -360,7 +360,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 714000000
+              "duration": 700000000
             }
           },
           {
@@ -373,7 +373,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 30000000
             }
           },
           {
@@ -386,7 +386,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -394,7 +394,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 593000000
+              "duration": 858000000
             }
           }
         ],
@@ -418,7 +418,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11792000000
+              "duration": 12542000000
             }
           },
           {
@@ -431,7 +431,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 490000000
+              "duration": 458000000
             }
           },
           {
@@ -444,7 +444,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 529000000
+              "duration": 649000000
             }
           },
           {
@@ -457,7 +457,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4257000000
+              "duration": 2001000000
             }
           },
           {
@@ -478,7 +478,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1303000000
+              "duration": 2186000000
             }
           }
         ],
@@ -502,7 +502,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11911000000
+              "duration": 30395000000
             }
           },
           {
@@ -515,7 +515,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 425000000
+              "duration": 515000000
             }
           },
           {
@@ -528,7 +528,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 574000000
+              "duration": 479000000
             }
           },
           {
@@ -541,7 +541,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 12000000
             }
           },
           {
@@ -554,7 +554,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2428000000
+              "duration": 2573000000
             }
           },
           {
@@ -575,7 +575,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1243000000
+              "duration": 656000000
             }
           }
         ],
