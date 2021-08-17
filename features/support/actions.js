@@ -71,6 +71,7 @@ module.exports.pressKey = async (key) => {
 module.exports.visitWebSite = async () => {
     scope.browser = await scope.driver.launch({
         headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
         defaultViewport: null
     });
     scope.context.currentPage = await scope.browser.newPage();
